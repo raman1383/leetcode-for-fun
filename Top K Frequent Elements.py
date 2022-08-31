@@ -14,3 +14,4 @@ def topKFrequent(self, nums: list[int], k: int) -> list[int]:
             res.append(n)
             if len(res) == k:
                 return res
+# O(n)
