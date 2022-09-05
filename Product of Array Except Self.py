@@ -1,5 +1,3 @@
-
-
 def productExceptSelf(self, nums: list[int]) -> list[int]:
     res = [1] * (len(nums))
     prefix = 1
